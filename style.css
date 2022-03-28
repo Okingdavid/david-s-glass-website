@@ -1,0 +1,245 @@
+* {
+  font-family: "IM Fell English SC", serif;
+  font-family: "Poppins", sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #cfdad8cc, #00916d94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #00916d94;
+  font-weight: 600;
+  font-size: 1.9rem;
+  opacity: 0.5;
+}
+h2,
+p {
+  color: #00916d7e;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.5;
+}
+h3,
+h5 {
+  color: #00916d9d;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right top,
+    rgba(255, 255, 255, 0.486),
+    rgba(255, 255, 255, 0.158)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(0.5rem);
+  display: flex;
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.733),
+    rgba(255, 255, 255, 0.281)
+  );
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50% 40%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  left: 15%;
+  bottom: 5%;
+}
+
+.img-co {
+  width: 2px;
+  height: 2px;
+  /* position: relative; */
+  /* left: 30px;
+  top: 20px;
+  margin-top: 4%; */
+}
+
+.dashboard {
+  flex: 0.1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.616),
+    rgba(255, 255, 255, 0.103)
+  );
+  border-radius: 2rem;
+}
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+h2 {
+  padding: 0rem;
+}
+
+.link h2 {
+  margin-left: 12px;
+}
+
+.skills {
+  flex: 2;
+}
+
+.more_about {
+  background: linear-gradient(to right top, #a6ecde2d, #2ebd9949);
+  border-radius: 1rem;
+  /* color: wheat;
+  font-weight: 600; */
+  width: 15rem;
+  height: 6rem;
+  position: relative;
+}
+
+.more_about img {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+  height: 4rem;
+  width: 5rem;
+}
+
+.more_about h2 {
+  width: 40%;
+  height: 30%;
+  font-size: 18px;
+  color: rgb(65, 61, 61);
+  font-weight: 600;
+  padding: 10px;
+}
+
+.status {
+  margin-bottom: 3rem;
+}
+.status input {
+  background: linear-gradient(
+    to right top,
+    rgba(255, 255, 255, 0.486),
+    rgba(255, 255, 255, 0.158)
+  );
+  border: none;
+  width: 80%;
+  padding: 0.4rem;
+  border-radius: 2rem;
+}
+
+.skills {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 110%;
+  position: relative;
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 0.5rem;
+  margin: 1rem 0rem 0rem -2rem;
+  padding: 1.5rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.308);
+  justify-content: space-between;
+}
+
+.card h2,
+p {
+  /* padding: 1%; */
+  /* margin: 2px; */
+  text-align: center;
+  position: relative;
+  top: -10px;
+  color: #00916d7e;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.progresses1, 
+.progresses2,
+  .progresses3 {
+  background: linear-gradient(to right top, #cfdad83d, #00916dfd);
+  position: relative;
+  top: -5px;
+  width: 15rem;
+  height: 40%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+
+  .progresses1::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.507);
+  position: absolute;
+  left: 70%;
+}
+  .progresses2::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.507);
+  position: absolute;
+  left: 80%;
+}
+  .progresses3::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.507);
+  position: absolute;
+  left: 40%;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.percentage {
+  font-weight: bolder;
+  background: linear-gradient(to right top, #cfdad8bd, #06ac22fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
